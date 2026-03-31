@@ -3,4 +3,7 @@ project(esercizio1 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(esercizio1 main.c)
+add_executable(esercizio1 esercizio1.c
+        esercizio2.c
+        EsercizioA.c
+        EsercizioB.c)
